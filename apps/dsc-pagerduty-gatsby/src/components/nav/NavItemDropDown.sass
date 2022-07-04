@@ -1,0 +1,22 @@
+.NavItemDropDownNavItem
+    position: relative
+
+    &:hover ul
+        display: block
+
+.NavItemDropDown
+    position: absolute
+    z-index: 10
+    left: 0
+    top: 100%
+    background-color: white
+    padding: .5rem 1rem
+    display: none
+    box-shadow: 0 2px 2px rgb(0 0 0 / 10%)
+    @apply divide-y divide-solid
+
+    .NavItemDropDownItem
+        white-space: nowrap
+
+    .NavItemDropDownItemLink
+        padding: .5rem 0

@@ -1,0 +1,86 @@
+.markdown
+    h1, h2, h3, h4, h5, h6
+        margin-bottom: 45px
+        margin-top: 30px
+        position: relative
+
+    // h2::after
+    //     display: none
+
+    h2::after
+        position: absolute
+        display: block
+        content: ''
+        top: 100%
+        left: 25px
+        margin-top: 19px
+        width: 45px
+        height: 3px
+        background-color: #4EB346
+
+    div
+        word-break: break-all    
+
+    a
+        color: #048a24
+
+    p
+        margin-bottom: .75rem
+        font-weight: normal
+        overflow-wrap: break-word
+        word-break: break-all
+        
+
+    img
+        margin-top: 1rem
+        margin-bottom: 1rem
+
+    ul
+        list-style-type: disc!important
+        padding-inline-start: 20px!important
+        // list-style-position: inside!important
+
+    ol
+        list-style-type: decimal
+        margin-left: 22px
+        // list-style-type: decimal!important
+        // padding-inline-start: 20px!important
+        // list-style-position: inside!important
+
+    li
+        margin-bottom: 1rem
+        // white-space: unset
+        // word-break: break-all
+
+    li p
+        display: inline-block
+
+    code
+        border: 1px solid #ccc
+        padding: 0px 10px
+        border-radius: 5px
+
+    pre > code
+        margin-top: .75rem
+        background: #454545
+        display: block
+        padding: 1rem
+        border-radius: 5px
+        color: white
+        white-space: normal
+        max-width: 100%
+        word-break: break-all
+        word-wrap: break-word
+
+    .iframeContainer
+        position: relative
+        overflow: hidden
+        width: 100%
+        padding-top: 56.25%
+
+    iframe
+        position: absolute
+        width: 100%!important
+        height: 100%!important
+        top: 0
+        left: 0

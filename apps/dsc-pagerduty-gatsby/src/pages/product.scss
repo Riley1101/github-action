@@ -1,0 +1,41 @@
+.productWrapper {
+  @apply max-w-full w-full h-auto flex flex-col items-center justify-start mx-auto;
+  .product-container {
+    @apply max-w-full w-full h-auto flex flex-col items-center justify-start;
+    .center-1 {
+      @apply mb-[100px];
+      .center-para-bold {
+        @apply font-[700] mt-0;
+      }
+    }
+    .margin-spacing {
+      @apply my-0;
+    }
+    .zero-margin-bottom {
+      @apply mt-[50px] mb-0;
+    }
+    .three-col-blog-card-image-green {
+      @apply mt-[50px] mb-[50px];
+      .card {
+        .title {
+          @apply min-h-[133px] flex items-center justify-center;
+        }
+      }
+    }
+    .three-col-without-cta {
+      @apply gap-y-[50px] mb-[85px];
+      .card {
+        @apply justify-start;
+        h5 {
+          @apply transition-all duration-75 ease-in-out;
+          a {
+            @apply text-[24px] hover:text-[#4EB346];
+          }
+        }
+      }
+    }
+    .product-page-cta {
+      @apply flex items-center justify-center gap-[10px] font-[700] mb-[100px];
+    }
+  }
+}

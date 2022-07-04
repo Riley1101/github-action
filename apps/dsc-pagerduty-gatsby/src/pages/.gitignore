@@ -1,0 +1,4 @@
+*.js
+*@gen.scss
+!*@gen.module.scss
+!*@gen.module.sass

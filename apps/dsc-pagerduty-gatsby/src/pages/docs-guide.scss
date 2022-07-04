@@ -1,0 +1,33 @@
+.docsguide-container {
+  @apply max-w-full w-full py-12 flex flex-col items-center justify-start;
+
+  .heading-container {
+    @apply flex flex-col items-center justify-center;
+  }
+  .heading-p1,
+  .heading-p2 {
+    @apply w-full text-justify text-gray-700 mb-5;
+  }
+  .link {
+    @apply text-green-400 cursor-pointer;
+  }
+  .divider-container {
+    @apply w-full flex items-center justify-center my-8;
+  }
+  .divider-left,
+  .divider-right {
+    @apply w-[10%] h-[2px] bg-black mx-5;
+  }
+  .gridSection {
+    @apply grid grid-cols-1 md:grid-cols-5 gap-10;
+  }
+  .grid-item {
+    @apply w-full flex flex-col items-center justify-start;
+  }
+  .img-container {
+    @apply w-[200px] h-[200px] flex items-center justify-center;
+  }
+  .lable {
+    @apply w-full text-center text-lg;
+  }
+}

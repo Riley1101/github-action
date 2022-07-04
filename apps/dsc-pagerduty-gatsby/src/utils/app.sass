@@ -1,0 +1,39 @@
+@tailwind base
+@tailwind components
+@tailwind utilities
+
+#___gatsby
+    min-width: 350px
+
+main > [class*="Wrapper"], main > [class*="Wrapper"] > *:not(.full-width)
+    max-width: 1180px
+    @apply mx-auto
+
+main > [class*="Wrapper"]
+    @apply min-w-[350px]
+
+main > [class*="Wrapper"].container
+    @apply px-[25px]
+
+h1, h2, h3, h4, h5, h6, p, li, a, div
+    letter-spacing: 0.06em
+
+li, a
+    @apply text-black text-[18px] tracking-[0.06em]
+
+a:hover
+    @apply text-[#4EB346]
+
+p
+    @apply text-[18px] font-[500]
+
+h1, h2, h3
+    @apply text-[32px] font-[700] leading-[44px] tracking-[0.06em]
+
+h4, h5
+    @apply text-[28px] font-[700] leading-[38px] tracking-[0.06em]
+
+h6
+    @apply text-[24px] font-[700] leading-[36px] tracking-[0.06em]
+
+@import "./parts.scss"

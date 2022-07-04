@@ -1,0 +1,28 @@
+.top-nav {
+  @apply min-w-[350px] max-w-[1180px] mx-auto w-full min-h-fit flex px-[25px] items-center justify-start py-5;
+}
+.top-nav-logo {
+  @apply mr-4;
+  img {
+    @apply w-[136px] h-[22px] object-contain;
+  }
+}
+.top-nav-cta {
+  @apply flex items-center justify-center;
+  a {
+    @apply text-[12px];
+  }
+}
+.top-nav-search {
+  @apply ml-auto px-2 py-1 flex items-center justify-center border-2 border-[#A4A4A4] rounded-[50px] text-[14px];
+}
+.logo {
+  // @apply max-w-[100px];
+  img{
+    @apply object-contain;
+  }
+}
+.link {
+  @apply relative after:content-[''] after:absolute after:w-[0%] after:h-[5px] after:bg-white after:-bottom-2 after:left-[5%] hover:text-white hover:after:w-[90%]
+  after:transition-all after:duration-200 after:ease-out text-white
+}

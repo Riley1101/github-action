@@ -1,0 +1,26 @@
+.contentPreview {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  height: 50px;
+}
+
+.contentPreview.description p {
+  font-size: 16px!important;
+}
+
+.table-one,
+.table-two,
+.table-three {
+  @apply w-full flex flex-col items-center justify-start mb-[50px];
+  .table-title {
+    @apply w-full bg-[#4EB346] flex items-center justify-center text-center py-[10px] text-[16px] font-[700] leading-[24px] mb-[18px] text-white;
+  }
+  ul {
+    @apply w-full flex flex-col items-start justify-center list-disc px-[15px] ml-[10px];
+    li {
+      @apply text-left text-[18px] md:text-[16px] font-[400] leading-[24px] md:leading-[22px] whitespace-pre-wrap;
+    }
+  }
+}
